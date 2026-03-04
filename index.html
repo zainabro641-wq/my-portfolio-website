@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Hello, I'm <span>Zain Abro</span></h1>
+            <p>Web Developer | Designer | Freelancer</p>
+            <button onclick="scrollToSection('contact')">Hire Me</button>
+        </div>
+
+        <div class="hero-img">
+            <img src="C:\Users\Abro Zain\Desktop\zain ali.jpeg" height="430px"  alt="My Photo">
+        </div>
+    </section>
+
+    <!-- About -->
+ 
+<section id="about" class="about-section reveal">
+    <div class="about-container">
+
+        <div class="about-img">
+            <img src="C:\Users\Abro Zain\Pictures\OIP (4).webp" height="240px" alt="About Image">
+        </div>
+
+        <div class="about-content">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm <strong>Your Name</strong>, a passionate web developer who loves
+                creating modern, responsive and user-friendly websites.
+                I enjoy turning ideas into real digital experiences.
+            </p>
+
+            <div class="skills">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="skill-bar"><span style="width:90%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="skill-bar"><span style="width:85%"></span></div>
+                </div>
+
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="skill-bar"><span style="width:75%"></span></div>
+                </div>
+            </div>
+
+            <button onclick="scrollToSection('contact')">Let's Talk</button>
+        </div>
+
+    </div>
+</section>
+
+
+
+    <!-- Projects -->
+    <section id="projects" class="section reveal">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project One</h3>
+                <p>Modern responsive website.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Two</h3>
+                <p>Interactive JavaScript app.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Three</h3>
+                <p>Creative UI design.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+
+    <section id="contact" class="contact-section reveal">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaborations or just a friendly hello 👋</p>
+
+    <div class="contact-container">
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <div class="info-item">
+                <p><strong>Email:</strong> your@email.com</p>
+            </div>
+            <div class="info-item">
+                <p><strong>Phone:</strong> +123 456 7890</p>
+            </div>
+            <div class="info-item">
+                <p><strong>Location:</strong> Your City, Country</p>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+    <footer>
+        <p>© 2026 Your Name | All Rights Reserved</p>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
